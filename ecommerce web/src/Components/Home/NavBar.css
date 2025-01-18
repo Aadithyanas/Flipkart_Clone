@@ -1,0 +1,31 @@
+/* NavBar.css */
+
+/* Container that holds all items */
+.navbar-component {
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 128px 0 128px;  /* Replaced with consistent margin */
+    overflow-x: auto;
+}
+
+.navbar-component .navbar-container {
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.navbar-component .navbar-img {
+    width: 64px;  /* Set the image width */
+}
+
+.navbar-component .navbar-text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+/* For smaller screens (mobile) */
+@media (max-width: 1024px) {
+    .navbar-component {
+        margin: 0;
+    }
+}
